@@ -9,7 +9,7 @@ Warning: Null is an intentional absence of any object value
 */
 let numberToSum = null;
 if (numberToSum != null) {
-  console.log("Sum numbers:", age + numberToSum);
+    console.log("Sum numbers:", age + numberToSum);
 }
 
 /*
@@ -18,8 +18,8 @@ Warning: Undefined can generate bugs in the code -> NaN (Not a Number) value
 */
 let phone;
 phone
-  ? console.log("Phone number is:", phone)
-  : console.log("Phone not exists");
+    ? console.log("Phone number is:", phone)
+    : console.log("Phone not exists");
 
 /*
     Null and UNDEFINED -> Are false in booleans context
