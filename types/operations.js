@@ -31,3 +31,18 @@ console.log("5".toString() + 1); // 51 (string)
 let myNumber = 2;
 console.log(typeof numberString, numberString); // string
 console.log(typeof myNumber, myNumber); // number
+
+/*
+Other operations
+== or != -> compare value
+
+=== or !== -> compare value and type
+
+(condition) ? condition is true : condition is false; -> ternary comparion
+
+*/
+console.log("1" == 1); // true
+console.log("1" != 1); // false
+
+console.log("1" === 1); // false
+console.log("1" !== 1); // true
